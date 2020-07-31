@@ -41,13 +41,7 @@
 			<view class="new-title">最近播放</view>
 			<text class="new-title-icon text-black"></text>
 		</view>
-		<view class="res-play">
-			<image src="http://p2.music.126.net/JRNj03dPHidbM4jQ-HFK0A==/18826937604631903.jpg?param=200y200" mode=""></image>
-			<view class="res-title">
-				<view class="res-name">全部已播歌曲</view>
-				<view class="res-num">3首</view>
-			</view>
-		</view>
+		
 		<!-- 创建歌单 -->
 		<view class="user-new-title">
 			<view class="new-title">创建歌单 0</view>
@@ -220,23 +214,6 @@ export default {
 .new-card .new-bott{
 	font-size: 12px;
 	margin-top: 30upx;
-}
-.res-play{
-	width: 100%;
-	display: flex;
-	align-items: center;
-	margin-top: 10upx;
-}
-.res-play image{
-	width: 100upx;
-	height: 100upx;
-	margin-left: 25upx;
-}
-.res-play .res-title{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin-left: 10upx;
 }
 .res-title .res-name{
 	font-size: 16px;
