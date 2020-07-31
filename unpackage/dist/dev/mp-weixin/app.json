@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/musicPage/musicPage",
+    "pages/musicPage/songComment/songComment",
+    "pages/songListPage/songListPage",
+    "pages/songListPage/playlistDetails/playlistDetails",
+    "pages/search/search",
+    "pages/searchList/searchList"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationStyle": "custom"
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap52.json"
+}

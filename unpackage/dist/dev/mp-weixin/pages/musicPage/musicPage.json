@@ -1,0 +1,13 @@
+{
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "云 音 乐",
+  "navigationBarBackgroundColor": "#D83D34",
+  "backgroundColor": "#FFFFFF",
+  "navigationStyle": "default",
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-slider": "/uview-ui/components/u-slider/u-slider",
+    "bing-lyric": "/components/bing-lyric/bing-lyric",
+    "play-list": "/myComponents/common/playList"
+  }
+}

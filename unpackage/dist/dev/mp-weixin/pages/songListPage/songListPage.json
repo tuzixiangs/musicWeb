@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-tabs-swiper": "/uview-ui/components/u-tabs-swiper/u-tabs-swiper",
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "u-divider": "/uview-ui/components/u-divider/u-divider",
+    "play-music": "/myComponents/common/playMusic"
+  }
+}

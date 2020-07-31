@@ -1,0 +1,684 @@
+@charset "UTF-8";
+/* uni.scss */
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.mine.data-v-dcbcfe34 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.mine .mine-user.data-v-dcbcfe34 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-top: 100rpx;
+}
+.mine-user .user-info.data-v-dcbcfe34 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.mine-user .user-ico.data-v-dcbcfe34 {
+  margin-left: 45rpx;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  background-color: #c0c0c0;
+  text-align: center;
+  line-height: 110rpx;
+}
+.user-info .user-icon.data-v-dcbcfe34 {
+  font-size: 36px;
+  color: #666;
+}
+.mine-user .user-msg.data-v-dcbcfe34 {
+  margin-left: 25rpx;
+  font-size: 12px;
+}
+.mine-user .user-login.data-v-dcbcfe34 {
+  margin: 35rpx;
+  border: 1px solid #c0c0c0;
+  border-radius: 10px;
+}
+.user-category.data-v-dcbcfe34 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-top: 60rpx;
+  padding: 0 25rpx;
+}
+.user-category .cate-class.data-v-dcbcfe34 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.cate-class .cate-icon.data-v-dcbcfe34 {
+  font-size: 28px;
+  color: #444;
+}
+.cate-class .cate-name.data-v-dcbcfe34 {
+  font-size: 13px;
+  text-align: center;
+  font-weight: 300;
+}
+.user-new-title.data-v-dcbcfe34 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-top: 45rpx;
+}
+.user-new-title .new-title.data-v-dcbcfe34 {
+  margin-left: 25rpx;
+  font-size: 16px;
+}
+.user-new-title .new-title-icon.data-v-dcbcfe34 {
+  margin-right: 25rpx;
+  font-size: 24px;
+}
+.mine-new-card.data-v-dcbcfe34 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-top: 45rpx;
+  padding: 0 25rpx;
+}
+.mine-new-card .new-card.data-v-dcbcfe34 {
+  width: 220rpx;
+  height: 290rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  background-color: #ababab;
+  color: #FFFFFF;
+  border-radius: 10px;
+}
+.new-card .new-card-icon.data-v-dcbcfe34 {
+  font-size: 28px;
+}
+.icon-like1.data-v-dcbcfe34 {
+  color: #FA3534;
+}
+.icon-FM.data-v-dcbcfe34 {
+  color: #333;
+}
+.new-card:first-child .new-card-icon.data-v-dcbcfe34 {
+  margin-top: -60rpx;
+}
+.new-card .new-msg.data-v-dcbcfe34 {
+  font-size: 15px;
+  margin-top: 10rpx;
+}
+.new-card .new-bott.data-v-dcbcfe34 {
+  font-size: 12px;
+  margin-top: 30rpx;
+}
+.res-play.data-v-dcbcfe34 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-top: 10rpx;
+}
+.res-play image.data-v-dcbcfe34 {
+  width: 100rpx;
+  height: 100rpx;
+  margin-left: 25rpx;
+}
+.res-play .res-title.data-v-dcbcfe34 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  margin-left: 10rpx;
+}
+.res-title .res-name.data-v-dcbcfe34 {
+  font-size: 16px;
+}
+.res-title .res-num.data-v-dcbcfe34 {
+  font-weight: 300;
+}
+.new-coll.data-v-dcbcfe34 {
+  margin-left: -280rpx;
+  font-size: 16px;
+  color: #ababab;
+}
+.mine-create.data-v-dcbcfe34 {
+  width: 100%;
+  padding: 10rpx 50rpx;
+  margin-top: 20rpx;
+}
+.mine-create .create.data-v-dcbcfe34 {
+  height: 80rpx;
+  border: 1px solid #ababab;
+  text-align: center;
+  font-size: 16px;
+  color: #ababab;
+  line-height: 36px;
+  border-radius: 8px;
+}
+.mine-recommend.data-v-dcbcfe34 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  padding: 0 25rpx;
+  margin-top: 45rpx;
+}
+.recommend.data-v-dcbcfe34 {
+  width: 350rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-top: 25rpx;
+}
+.recommend image.data-v-dcbcfe34 {
+  width: 130rpx;
+  height: 130rpx;
+}
+.recommend .recommend-title.data-v-dcbcfe34 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  margin-left: 10rpx;
+}
+.recommend-title .title-name.data-v-dcbcfe34 {
+  width: 200rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.recommend-title .title-msg.data-v-dcbcfe34 {
+  font-size: 12px;
+  font-weight: 300;
+  width: 200rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 20rpx;
+}
+.last.data-v-dcbcfe34 {
+  width: 100%;
+  height: 80rpx;
+  margin-top: 55rpx;
+  text-align: center;
+  font-size: 12px;
+  color: #ababab;
+}
+
+@charset "UTF-8";
+/* uni.scss */
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.tabSwiper.data-v-57280228 {
+  margin-top: -1px;
+}
+.tabSwiper.data-v-57280228 .u-tabs-scroll-box {
+  text-align: center;
+  height: 90rpx;
+  line-height: 90rpx;
+}
+.tabSwiper .icon-liebiao.data-v-57280228 {
+  position: absolute;
+  top: 17rpx;
+  left: 35rpx;
+  color: #fff;
+  font-size: 44rpx;
+  z-index: 99;
+}
+.tabSwiper .icon-search.data-v-57280228 {
+  position: absolute;
+  top: 17rpx;
+  right: 35rpx;
+  color: #fff;
+  font-size: 44rpx;
+  z-index: 99;
+}
+.tabSwiper .loginText.data-v-57280228 {
+  margin: 40rpx 0 25rpx 0;
+  font-size: 24rpx;
+  text-align: center;
+}
+.tabSwiper .loginBtn.data-v-57280228 {
+  margin: 0 auto;
+  width: 200rpx;
+  height: 52rpx;
+  color: #fff;
+  text-align: center;
+  line-height: 50rpx;
+  background-color: #d83d34;
+  border-radius: 20px;
+}
+.tabSwiper .loginItem.data-v-57280228 {
+  margin: 40rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  width: 100%;
+  font-size: 24rpx;
+}
+.tabSwiper .loginItem .text-icon.data-v-57280228 {
+  text-align: center;
+}
+.tabSwiper .loginItem .text-icon view.data-v-57280228:nth-child(1) {
+  font-size: 44rpx;
+  color: #d83d34;
+}
+.tabSwiper .loginList.data-v-57280228 {
+  font-size: 34rpx;
+  padding-left: 28rpx;
+}
+.tabSwiper .loginList .loginList-item.data-v-57280228 {
+  margin-bottom: 40rpx;
+}
+.tabSwiper .loginList .iconfont.data-v-57280228 {
+  font-size: 34rpx;
+}
+.banner-item.data-v-57280228 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+          align-items: flex-end;
+}
+.banner-item .typeTitle1.data-v-57280228 {
+  position: absolute;
+  bottom: 0;
+  right: 26rpx;
+  color: #fff;
+  font-size: 24rpx;
+  padding: 10rpx 20rpx;
+  border-radius: 8px 0 8px 0;
+  background-color: rgba(216, 61, 52, 0.9);
+}
+.banner-item .typeTitle2.data-v-57280228 {
+  position: absolute;
+  bottom: 0;
+  right: 26rpx;
+  color: #fff;
+  font-size: 24rpx;
+  padding: 10rpx 20rpx;
+  border-radius: 8px 0 8px 0;
+  background-color: rgba(75, 139, 203, 0.9);
+}
+.nav.data-v-57280228 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin: 26rpx 0 32rpx 0;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+}
+.nav .nav-item.data-v-57280228 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: column;
+          flex-flow: column;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 140rpx;
+  height: 132rpx;
+}
+.nav .nav-item text.data-v-57280228 {
+  font-size: 24rpx;
+}
+.nav .nav-item view.data-v-57280228 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+  background-color: #d83d34;
+}
+.nav .nav-item view .iconfont.data-v-57280228 {
+  font-size: 52rpx;
+  color: #fff;
+}
+.nav .nav-item view .nav-item-date.data-v-57280228 {
+  margin-top: 3px;
+  position: absolute;
+  font-size: 24rpx;
+  color: #d83d34;
+  font-weight: 800;
+  z-index: 9;
+}
+.recommend.data-v-57280228 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 360rpx;
+}
+.recommend .recommend-head.data-v-57280228 {
+  width: 697.5rpx;
+}
+.recommend .recommend-head .head-title.data-v-57280228 {
+  float: left;
+  font-size: 38rpx;
+  font-weight: 800;
+}
+.recommend .recommend-head .head-btn.data-v-57280228 {
+  float: right;
+  width: 130rpx;
+  height: 50rpx;
+  text-align: center;
+  line-height: 50rpx;
+  font-size: 24rpx;
+  color: #555;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+}
+.recommend .recommend-list.data-v-57280228 {
+  width: 100%;
+}
+.recommend .recommend-list .recommend-scroll.data-v-57280228 {
+  width: 100%;
+  white-space: nowrap;
+  position: relative;
+}
+.recommend .recommend-list .recommend-scroll .imgBox.data-v-57280228 {
+  margin-left: 26.5rpx;
+  position: relative;
+  display: inline-block;
+  width: 208rpx;
+}
+.recommend .recommend-list .recommend-scroll .imgBox .playNumber.data-v-57280228 {
+  padding: 4rpx 10rpx;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 24rpx;
+  color: #fff;
+}
+.recommend .recommend-list .recommend-scroll .imgBox.data-v-57280228:last-child {
+  margin-right: 26.5rpx;
+}
+.recommend .recommend-list .recommend-scroll .recommendSong-title.data-v-57280228 {
+  position: relative;
+  width: 100%;
+  height: 68rpx;
+  font-size: 24rpx;
+  overflow: hidden;
+  white-space: normal;
+  word-wrap: break-word;
+  word-break: break-all;
+  /* break-all(允许在单词内换行。) */
+  text-overflow: ellipsis;
+  /* 超出部分省略号 */
+  display: -webkit-box;
+  /** 对象作为伸缩盒子模型显示 **/
+  -webkit-box-orient: vertical;
+  /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+  -webkit-line-clamp: 2;
+  /** 显示的行数 **/
+}
+.newSong.data-v-57280228 {
+  margin: 40rpx 26.5rpx 160rpx 26.5rpx;
+}
+.newSong .newSong-head.data-v-57280228 {
+  margin-bottom: 20rpx;
+}
+.newSong .newSong-head .newSong-title.data-v-57280228 {
+  font-size: 34rpx;
+  font-weight: 800;
+}
+.newSong .newSong-list .newSong-list-item.data-v-57280228 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-bottom: 28rpx;
+  border-radius: 7px;
+  height: 120rpx;
+}
+.newSong .newSong-list .newSong-list-item .newSong-list-info.data-v-57280228 {
+  position: relative;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  line-height: 50rpx;
+  margin-left: 22rpx;
+  padding-top: 8rpx;
+}
+.newSong .newSong-list .newSong-list-item .newSong-list-info .newSongIcon.data-v-57280228 {
+  position: absolute;
+  right: 10rpx;
+  top: 50%;
+  -webkit-transform: translateY(-55%);
+          transform: translateY(-55%);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding-left: 5rpx;
+  width: 46rpx;
+  height: 46rpx;
+  border-radius: 50%;
+  border: 1px solid #e3e3e3;
+}
+.newSong .newSong-list .newSong-list-item .newSong-list-info .newSongIcon1.data-v-57280228 {
+  position: absolute;
+  right: 10rpx;
+  top: 50%;
+  -webkit-transform: translateY(-55%);
+          transform: translateY(-55%);
+}
+.newSong .newSong-list .newSong-list-item .newSong-list-info .newSongName view.data-v-57280228:nth-child(1) {
+  font-size: 30rpx;
+  font-weight: 600;
+  width: 440rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.newSong .newSong-list .newSong-list-item .newSong-list-info .newSongName view.data-v-57280228:nth-child(2) {
+  width: 440rpx;
+  font-size: 24rpx;
+  color: #777;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.bColorBox.data-v-57280228 {
+  position: absolute;
+  top: -2px;
+  width: 100%;
+  height: 100px;
+  background-color: #d83d34;
+  z-index: -1;
+}
+.home.data-v-57280228 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  height: calc(100vh - 0px);
+  width: 100%;
+}
+.swiper-box.data-v-57280228 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.swiper-item.data-v-57280228 {
+  height: 100%;
+}
+

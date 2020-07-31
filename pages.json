@@ -1,0 +1,73 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			// #ifdef MP-WEIXIN
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "云 音 乐",
+			"navigationBarBackgroundColor": "#D83D34",
+			"backgroundColor": "#FFFFFF",
+			"navigationStyle":"default"
+			// #endif
+		}
+	}    ,{
+            "path" : "pages/mine/mine",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/musicPage/musicPage",
+            "style" : {
+							// #ifdef MP-WEIXIN
+							"navigationBarTextStyle": "white",
+							"navigationBarTitleText": "云 音 乐",
+							"navigationBarBackgroundColor": "#D83D34",
+							"backgroundColor": "#FFFFFF",
+							"navigationStyle":"default"
+							// #endif
+						}
+        }
+        ,{
+            "path" : "pages/musicPage/songComment/songComment",
+            "style" : {
+							
+						}
+        }
+        ,{
+            "path" : "pages/songListPage/songListPage",
+            "style" : {
+							
+						}
+        }
+        ,{
+            "path" : "pages/songListPage/playlistDetails/playlistDetails",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/searchList/searchList",
+            "style" : {}
+        }
+    ],
+	
+	
+
+	"globalStyle": {
+		"navigationStyle":"custom"
+	},
+	"easycom": {
+			"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+		},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
