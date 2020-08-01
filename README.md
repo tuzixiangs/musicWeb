@@ -1,6 +1,6 @@
 # musicWeb
 用uni-app模仿的网易云移动端<br/>
-主要实现了播放器内核、发现页面、音乐搜索、歌单分类、歌单详情、播放列表、音乐播放页面以及评论页面等主要功能，并兼容了微信小程序以及app端<br/>
+主要实现了播放器内核、发现页面、音乐搜索、歌单分类、歌单详情、播放列表、音乐播放页面以及评论页面等主要功能，并兼容了微信小程序以及app端，后续将会逐步完成更多功能<br/>
 
 ### 效果预览<br/>
 ![截图](/static/Screenshot/home.png) ![截图](/static/Screenshot/hotSearch.png) ![截图](/static/Screenshot/searchResult.png)![截图](/static/Screenshot/songsList.png) ![截图](/static/Screenshot/playlistDetails.png) ![截图](/static/Screenshot/playList.png)![截图](/static/Screenshot/musicPlayPage.png) ![截图](/static/Screenshot/lyrics.png) ![截图](/static/Screenshot/comment.png)<br/>
