@@ -6,7 +6,7 @@
 ![](/static/Screenshot/searchResult.png)     ![](/static/Screenshot/songsList.png) 
 ![](/static/Screenshot/playlistDetails.png)     ![](/static/Screenshot/playList.png)
 ![](/static/Screenshot/musicPlayPage.png)   ![](/static/Screenshot/lyrics.png) 
-![]/static/Screenshot/comment.png)
+![](/static/Screenshot/comment.png)
 
 ### 技术方案<br/>
 使用uni-app+uView-ui+vuex<br/>后端使用的 [NeteaseCloudMusicApi](https://binaryify.github.io/NeteaseCloudMusicApi/#/?id=neteasecloudmusicapi)，感谢[Binaryify](https://github.com/Binaryify)对接口文档不断维护与更新<br/>
