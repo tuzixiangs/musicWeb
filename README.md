@@ -12,6 +12,7 @@
 最后也非常感谢[uView-ui](https://github.com/YanxinNet/uView)，非常好用的移动端ui库<br/>
 
 #### 下载使用<br/>
+clone下来后使用HBuilder打开，选择运行到指定终端即可
 
 #### 本项目仅供学习交流使用
 
