@@ -200,34 +200,6 @@
   font-size: 12px;
   margin-top: 30rpx;
 }
-.res-play.data-v-dcbcfe34 {
-  width: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-          align-items: center;
-  margin-top: 10rpx;
-}
-.res-play image.data-v-dcbcfe34 {
-  width: 100rpx;
-  height: 100rpx;
-  margin-left: 25rpx;
-}
-.res-play .res-title.data-v-dcbcfe34 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-          justify-content: center;
-  margin-left: 10rpx;
-}
 .res-title .res-name.data-v-dcbcfe34 {
   font-size: 16px;
 }
@@ -347,6 +319,9 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
+.navbar.data-v-57280228 .u-border-bottom:after {
+  border-bottom-width: 0px;
+}
 .tabSwiper.data-v-57280228 {
   margin-top: -1px;
 }

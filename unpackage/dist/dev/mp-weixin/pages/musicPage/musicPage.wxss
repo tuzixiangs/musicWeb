@@ -39,11 +39,20 @@
   /* IE6~IE9 */
   z-index: -1;
 }
+.musicPage.data-v-3c2a7cf0 {
+  height: 100%;
+}
+.musicPage .navbar.data-v-3c2a7cf0 .u-border-bottom:after {
+  border-bottom-width: 0px;
+}
 .pageHead.data-v-3c2a7cf0 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
-  height: 120rpx;
+  height: calc(11vh - 0px);
   -webkit-box-align: center;
   -webkit-align-items: center;
           align-items: center;
@@ -68,8 +77,11 @@
   text-overflow: ellipsis;
 }
 .pageMain.data-v-3c2a7cf0 {
-  height: 954rpx;
-  height: 874rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  height: calc(70.5vh - 0px);
+  height: calc(70.5vh - 0px);
   overflow: hidden;
 }
 .pageMain .pageSwiper.data-v-3c2a7cf0 {
@@ -130,8 +142,8 @@
   width: 560rpx;
 }
 .pageFeatures.data-v-3c2a7cf0 {
-  height: 260rpx;
-  height: 210rpx;
+  height: calc(18.5vh - 0px);
+  height: calc(18.5vh - 0px);
   color: #f1f1f1;
   padding-top: 60rpx;
   padding-top: 10rpx;

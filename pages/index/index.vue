@@ -1,5 +1,10 @@
 <template>
 	<view class="home">
+		<!-- 头部导航栏 -->
+		<!-- #ifndef MP-WEIXIN -->
+		<u-navbar  back-icon-name='' :background="{background: '#d83d34'}" height="0" class="navbar">
+		 <!-- #endif -->
+		</u-navbar>
 		<!-- 整屏滑动头部 -->
 		<view class="tabSwiper">
 			<!-- #ifndef MP-WEIXIN -->
@@ -79,7 +84,7 @@
 					<!-- banner -->
 					<swiper indicator-dots circular :autoplay="isAutoplay" :interval="5000" :duration="800">
 						<swiper-item v-for="item in banner" :key="item.id" class="banner-item">
-							<image lazy-load :src="item.imageUrl" style="width:93%;height:93%;border-radius:8px"></image>
+							<image lazy-load :src="item.imageUrl" style="width:93%;height:100%;border-radius:8px"></image>
 							<view :class="item.titleColor === 'red' ? 'typeTitle1' : 'typeTitle2'">{{ item.typeTitle }}</view>
 						</swiper-item>
 					</swiper>
@@ -421,7 +426,11 @@ export default {
 
 <style lang="scss" scoped>
 $bColor: #d83d34;
-
+.navbar {
+	/deep/ .u-border-bottom:after {
+		border-bottom-width: 0px;
+	}
+}
 .tabSwiper {
 	margin-top: -1px;
 
@@ -433,6 +442,9 @@ $bColor: #d83d34;
 	.icon-liebiao {
 		position: absolute;
 		top: 17rpx;
+		/* #ifdef APP-PLUS */
+		top: 4.5%;
+		/* #endif */
 		left: 35rpx;
 		color: #fff;
 		font-size: 44rpx;
@@ -441,6 +453,9 @@ $bColor: #d83d34;
 	.icon-search {
 		position: absolute;
 		top: 17rpx;
+		/* #ifdef APP-PLUS */
+		top: 4.5%;
+		/* #endif */
 		right: 35rpx;
 		color: #fff;
 		font-size: 44rpx;

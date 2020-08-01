@@ -25,6 +25,9 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
+.navbar.data-v-b013ad06 {
+  margin-bottom: 88rpx;
+}
 .navbar.data-v-b013ad06 .u-border-bottom:after {
   border-bottom-width: 0px;
 }
@@ -59,7 +62,7 @@
 }
 .popup.data-v-b013ad06 {
   position: absolute;
-  top: calc(30vh - 0px);
+  top: calc(40vh - 0px);
   top: calc(40vh - 0px);
   width: 100%;
   height: 80%;

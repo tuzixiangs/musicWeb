@@ -1,5 +1,7 @@
 <template>
 	<view class="musicPage">
+		<!-- 头部导航栏 -->
+		
 		<!-- 歌曲信息 -->
 		<view class="pageHead">
 			<!-- #ifndef MP-WEIXIN -->
@@ -51,7 +53,7 @@
 					></u-slider>
 				</view>
 				<!-- 歌词滚动区 -->
-				<view class='lyrics' @click="isLyrics = !isLyrics">
+				<view class="lyrics" @click="isLyrics = !isLyrics">
 					<bing-lyric :lyrics="lyrics.lrc.lyric" :curTime="currentTime" :areaStyle="areaStyle" :centerStyle="centerStyle"></bing-lyric>
 				</view>
 			</view>
@@ -83,7 +85,7 @@
 				<text class="iconfont icon-playList" @click="getIsShow(true)"></text>
 				<view class="comments" @click="goCommentPage">
 					<text class="iconfont icon-comment"></text>
-					<text class="total">{{total}}</text>
+					<text class="total">{{ total }}</text>
 				</view>
 			</view>
 		</view>
@@ -115,24 +117,23 @@ export default {
 			activeWidth: 0,
 			isLyrics: true,
 			// 歌词
-			lyrics:'',
+			lyrics: '',
 			// 歌词背景设置
-			areaStyle:{
-				background:'0',
+			areaStyle: {
+				background: '0'
 			},
-			centerStyle:{
-				btnImg:"../../static/image/btn.png"
+			centerStyle: {
+				btnImg: '../../static/image/btn.png'
 			},
 			// 总评论数
-			total:''
+			total: ''
 		};
 	},
 	components: {
 		playList
 	},
-	onLoad(){
-		this.getLyrics(),
-		this.getComment()
+	onLoad() {
+		this.getLyrics(), this.getComment();
 	},
 	onReady() {
 		this.getTime();
@@ -231,7 +232,7 @@ export default {
 			this.activeWidth += this.Swidth;
 			// console.log(this.activeWidth);
 		},
-		
+
 		//重复代码,不想改了
 		// 获取初始化评论数据
 		async getComment() {
@@ -240,17 +241,17 @@ export default {
 				return this.$u.toast('网络正在开小差~稍后再试!');
 			}
 			// console.log(res);
-			if(res.total>999){
-				return this.total = '999+'
-			}else if(res.total>10000){
-				return this.total = '1W+'
-			}else if(res.total>100000){
-				return this.total = '10W+'
-			}else{
-				return this.total = res.total;
+			if (res.total > 999) {
+				return (this.total = '999+');
+			} else if (res.total > 10000) {
+				return (this.total = '1W+');
+			} else if (res.total > 100000) {
+				return (this.total = '10W+');
+			} else {
+				return (this.total = res.total);
 			}
 		},
-		
+
 		// 跳转评论页面
 		goCommentPage() {
 			uni.navigateTo({
@@ -263,13 +264,13 @@ export default {
 			// console.log(this.val);
 		},
 		// 获取歌词
-		async getLyrics(){
-			const res = await this.$u.get(`/lyric?id=${this.playList[this.subscript].id}`)
+		async getLyrics() {
+			const res = await this.$u.get(`/lyric?id=${this.playList[this.subscript].id}`);
 			if (res.code !== 200) {
 				return this.$u.toast('网络正在开小差~请稍后再试');
 			}
 			// console.log(res)
-			res.lrc.lyric = res.lrc.lyric.replace(/\[/g, "sb[").split('sb');
+			res.lrc.lyric = res.lrc.lyric.replace(/\[/g, 'sb[').split('sb');
 			this.lyrics = res;
 		},
 		// 兼容微信小程序
@@ -285,7 +286,7 @@ export default {
 		}
 	},
 	computed: {
-		...mapState(['playList', 'subscript', 'isBtn', 'endTime', 'nowPlayTime', 'totalTime','currentTime']),
+		...mapState(['playList', 'subscript', 'isBtn', 'endTime', 'nowPlayTime', 'totalTime', 'currentTime']),
 		...mapGetters(['length']),
 		isBg() {
 			return `background: url(${this.playList[this.subscript].picUrl}) center;`;
@@ -306,8 +307,8 @@ export default {
 		// 监听subscript变化更改url
 		subscript() {
 			this.$audio.src = this.playList[this.subscript].url;
-			this.getLyrics()
-			this.getComment()
+			this.getLyrics();
+			this.getComment();
 			// 兼容微信小程序
 			this.activeWidth = 0;
 			this.getSwindth();
@@ -327,8 +328,8 @@ export default {
 				}, 1000);
 			}
 		},
-		volumes(){
-			this.setVolume()
+		volumes() {
+			this.setVolume();
 		}
 	}
 };
@@ -348,9 +349,18 @@ export default {
 	filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false); /* IE6~IE9 */
 	z-index: -1;
 }
+.musicPage{
+	height: 100%;
+	.navbar {
+		/deep/ .u-border-bottom:after {
+			border-bottom-width: 0px;
+		}
+	}
+}
 .pageHead {
+	flex: 1;
 	display: flex;
-	height: 120rpx;
+	height: calc(11vh - var(--window-top));
 	align-items: center;
 	.info {
 		width: 70%;
@@ -376,9 +386,10 @@ export default {
 }
 .pageMain {
 	// margin: 0 auto;
-	height: 954rpx;
+	flex: 1;
+	height: calc(70.5vh - var(--window-top));
 	/* #ifdef MP-WEIXIN */
-	height: 874rpx;
+	height: calc(70.5vh - var(--window-top));
 	/* #endif */
 	overflow: hidden;
 	.pageSwiper {
@@ -424,9 +435,9 @@ export default {
 	}
 }
 .pageFeatures {
-	height: 260rpx;
+	height: calc(18.5vh - var(--window-top));
 	/* #ifdef MP-WEIXIN */
-	height: 210rpx;
+	height: calc(18.5vh - var(--window-top));
 	/* #endif */
 	color: #f1f1f1;
 	padding-top: 60rpx;

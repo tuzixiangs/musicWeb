@@ -1,6 +1,5 @@
 <template>
 	<view>
-		<!-- #ifdef MP-WEIXIN -->
 		<u-navbar
 			class="navbar"
 			:background="{ backgroundColor: '#D83D34' }"
@@ -9,17 +8,6 @@
 			back-text="歌单"
 			:back-text-style="{ color: '#fff', fontSize: '34rpx', marginLeft: '10rpx' }"
 		></u-navbar>
-		<!-- #endif -->
-		<!-- #ifndef MP-WEIXIN-->
-		<u-navbar
-			class="navbar"
-			:background="{ backgroundColor: '0' }"
-			back-icon-color="#fff"
-			back-icon-size="38"
-			back-text="歌单"
-			:back-text-style="{ color: '#fff', fontSize: '34rpx', marginLeft: '10rpx' }"
-		></u-navbar>
-		<!-- #endif -->
 		<view v-if="playlistDetails" class="scroll">
 			<!-- 歌单信息 -->
 			<view class="playListInfo">
@@ -185,6 +173,7 @@ export default {
 
 <style lang="scss" scoped>
 .navbar {
+	margin-bottom: 88rpx;
 	/deep/ .u-border-bottom:after {
 		border-bottom-width: 0px;
 	}
@@ -218,7 +207,7 @@ export default {
 }
 .popup {
 	position: absolute;
-	top: calc(30vh - var(--window-top));
+	top: calc(40vh - var(--window-top));
 	 /* #ifdef MP-WEIXIN */
 	top: calc(40vh - var(--window-top));
 	 /* #endif */
